@@ -65,7 +65,7 @@
     "bugs": {
       "url": "https://github.com/Stim1/predly_test/issues"
     },
-    "homepage": "https://github.com/Stim1/predly_test/"
+    "homepage": "https://Stim1.github.io/predly_test/"
   },
   "dependencies": {
     "swiper": "^11.0.6"
@@ -77,5 +77,5 @@
   "bugs": {
     "url": "https://github.com/Stim1/predly_test/issues"
   },
-  "homepage": "https://github.com/Stim1/predly_test/"
+  "homepage": "https://Stim1.github.io/predly_test/"
 }
