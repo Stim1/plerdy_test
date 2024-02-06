@@ -18,7 +18,10 @@
     "lint": "eslint . --ignore-path .gitignore --fix"
   },
   "mateAcademy": {
-    "projectType": "layout"
+    "projectType": "layout",
+    "linters": {
+      "bem": false
+    }
   },
   "keywords": [],
   "author": "Mate Academy",
