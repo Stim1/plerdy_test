@@ -18,6 +18,12 @@
   width: 28px;
   background-color: #5d78ff;
   cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  background-color: #c2cbf5;
 }
 
 .swiper-slide .slide-number {
@@ -45,11 +51,16 @@
 }
 
 .swiper-pagination {
+  display: none;
   position: absolute;
   top: -10px;
   z-index: 10;
   width: 100%;
   text-align: center;
+}
+
+.text-gray {
+  color: #757575;
 }
 
 .swiper-slide {
@@ -78,7 +89,6 @@
   color: #001e41;
   font-family: "Roboto", sans-serif;
   font-size: 24px;
-  font-weight: 700;
 }
 
 .swiper-slide-text {
@@ -103,4 +113,48 @@
   font-size: 14px;
   font-weight: 400;
   line-height: 21px;
+}
+
+@media (max-width: 768px) {
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: none;
+  }
+
+  .swiper {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 315px;
+  }
+
+  .swiper-slide {
+    width: 100%;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 15px;
+  }
+
+  .swiper-pagination {
+    display: block;
+    position: relative;
+    margin-top: 20px;
+  }
+
+  .swiper-title {
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    background-color: #999;
+    opacity: 1;
+    border-radius: 50%;
+  }
+
+  .swiper-pagination-bullet-active {
+    background-color: #007bff;
+  }
 }
