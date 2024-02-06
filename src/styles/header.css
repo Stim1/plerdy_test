@@ -24,14 +24,25 @@
 .menu-item__text,
 .action-item__text {
   color: #7d7d7d;
+  cursor: pointer;
   font-size: 18px;
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 600;
 }
 
+.menu-item__text:hover,
+.action-item__text:hover {
+  color: #5d78ff;
+}
+
 .action-item__text--highlight {
   color: #5d78ff;
   font-weight: 400;
+  transition: background-color 0.3s;
+}
+
+.action-item__text--highlight:hover {
+  color: #000000;
 }
 
 .header__contact-button {
@@ -44,6 +55,11 @@
   border-radius: 8px;
   background-color: #5d78ff;
   cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.header__contact-button:hover {
+  background-color: #bfc7f8;
 }
 
 .contact-button__text {
@@ -52,4 +68,30 @@
   font-family: "Source Sans Pro", sans-serif;
   margin: 0;
   line-height: 29px;
+}
+
+.menu-icon {
+  display: none;
+  cursor: pointer;
+}
+
+.menu-icon__img {
+  width: 40px;
+  height: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .header__logo {
+    padding-left: 20px;
+  }
+
+  .header__menu,
+  .header__actions {
+    display: none;
+  }
+
+  .menu-icon {
+    display: flex;
+    padding-right: 20px;
+  }
 }
