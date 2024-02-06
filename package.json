@@ -18,6 +18,9 @@
     "fix-style": "npm run format & npm run lint",
     "lint": "eslint . --ignore-path .gitignore --fix"
   },
+  "mateAcademy": {
+    "projectType": "layout"
+  },
   "keywords": [],
   "author": "Mate Academy",
   "license": "GPL-3.0",
@@ -34,12 +37,9 @@
     "eslint-plugin-node": "^9.0.1",
     "gh-pages": "^2.0.0",
     "gulp-htmllint": "0.0.16",
-    "node-sass": "^4.14.1",
     "parcel": "^1.12.4",
     "prettier": "^3.2.5",
-    "stylelint": "^13.5.0",
-    "stylelint-config-recommended-scss": "^3.3.0",
-    "stylelint-scss": "^3.17.2"
+    "stylelint": "^13.5.0"
   },
   "eslintConfig": {
     "extends": [
@@ -56,9 +56,6 @@
     "browserslist": [
       "last 2 versions"
     ],
-    "mateAcademy": {
-      "projectType": "layout"
-    },
     "dependencies": {},
     "repository": {
       "type": "git",
