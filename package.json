@@ -2,8 +2,7 @@
   "name": "gulp-boilerplate",
   "version": "1.0.0",
   "description": "Frontend boilerplate based on gulp",
-  "main": "main.js",
-  "homepage": "https://Stim1.github.io/predly_test/",
+  "main": "index.html",
   "scripts": {
     "init": "mate-scripts init",
     "start": "mate-scripts start",
