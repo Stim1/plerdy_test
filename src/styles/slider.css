@@ -11,11 +11,11 @@
 .swiper-button-prev {
   position: absolute;
   top: 50px;
-  margin-left: 75%;
+  margin-left: 71%;
   margin-right: 20%;
-  height: 28px;
+  height: 35px;
   border-radius: 50%;
-  width: 28px;
+  width: 35px;
   background-color: #5d78ff;
   cursor: pointer;
   transition: background-color 0.3s;
@@ -51,6 +51,7 @@
 }
 
 .swiper-pagination {
+  display: none;
   position: absolute;
   top: -10px;
   z-index: 10;
@@ -87,9 +88,7 @@
   margin-bottom: 20px;
   color: #001e41;
   font-family: "Roboto", sans-serif;
-  font-weight: lighter;
   font-size: 24px;
-  font-weight: 700;
 }
 
 .swiper-slide-text {
@@ -114,10 +113,6 @@
   font-size: 14px;
   font-weight: 400;
   line-height: 21px;
-}
-
-.swiper-pagination {
-  display: none;
 }
 
 @media (max-width: 768px) {
