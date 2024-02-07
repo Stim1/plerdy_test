@@ -229,7 +229,7 @@
   padding: 0;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .demo-form-image-container,
   .demo-form-image {
     display: none;
@@ -267,11 +267,16 @@
     padding: 0;
     margin-bottom: 20px;
   }
+
   .demo-form-field label,
   .demo-form-field input,
   .demo-form-agreement label {
     font-size: 14px;
     width: 100%;
+  }
+
+  .demo-form-agreement label {
+    margin-right: 50px;
   }
 
   .demo-form-field input {
@@ -303,7 +308,7 @@
   }
 
   .demo-form-powered {
-    justify-content: center; /* Для вирівнювання логотипу та тексту по центру */
+    justify-content: center;
     width: 90%;
     margin-top: 20px;
   }

@@ -92,6 +92,7 @@
 .main-part__image-small {
   width: 100%;
   height: auto;
+  padding-right: 15px;
   margin: 0;
   display: block;
   max-width: 101px;
@@ -147,6 +148,7 @@
   .main-part__image-small {
     margin: 0;
     display: block;
+    padding-right: 0;
     width: 92px;
     height: 16px;
   }
