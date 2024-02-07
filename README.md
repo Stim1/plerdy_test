@@ -1,1 +1,1 @@
- - [DEMO LINK](https://Stim1.github.io/predly_test/)
+ - [DEMO LINK](https://stim1.github.io/plerdy_test/)
